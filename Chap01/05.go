@@ -15,7 +15,7 @@ func main() {
 	words := strings.Fields(line)
 
 	for i := 0; len(words)-1 > i; i++ {
-		fmt.Println(words[i], "-", words[i+1])
+		fmt.Println(words[i], "-", words[i+1]) 
 	}
 
 }
